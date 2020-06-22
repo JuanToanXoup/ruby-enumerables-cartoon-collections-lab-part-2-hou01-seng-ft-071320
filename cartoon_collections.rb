@@ -29,7 +29,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.select do |word|
     valid_calls.each do |index|
       word == index
+  word
     end
-    word
   end
 end
